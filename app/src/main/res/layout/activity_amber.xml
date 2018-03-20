@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_amber"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48e8fa"
+        tools:context="com.example.user.tourism.amber">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txt"
+        android:text="AMBER PALACE
+
+Amber (pronounced Amer) is at a distance of about 11 kilometres from Jaipur. Now a UNESCO World Heritage Site, it was the bastion of the Kachwahas of Amber, until the capital was moved to the plains, to what is today Jaipur. The palace, located in craggy hills, is a beautiful melange of Hindu and Mughal styles. Raja Man Singh I began construction in 1592 and the palace, which was built as a strong, safe haven against attacking enemies, was completed by Mirja Raja Jai Singh. The contrast between the harsh exterior and the inviting interior couldn’t be more surprising. Made entirely of red sandstone and white marble, visitors are left spellbound by the magnificence of the palace that utilises carvings, precious stones and mirrors. The splendour of the palace is enhanced by the breath-taking vista of the Maota Lake in front. The palace is nearly seven centuries old and has a legendary past. Originally a small structure that the Rajputs won from the Meena tribes, it was later transformed into the grand Amber Palace.
+
+"
+        android:textSize="20dp"
+        android:textColor="#0a0808"/>
+
+</LinearLayout>
+</ScrollView>

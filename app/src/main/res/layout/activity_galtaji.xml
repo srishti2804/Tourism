@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_galtaji"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48e8fa"
+    tools:context="com.example.user.tourism.galtaji">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt"
+            android:textSize="20dp"
+            android:textColor="#100e0e"
+            android:text="GALTAJI
+
+Galtaji is an ancient pilgrimage centre in Jaipur. Set amidst low hills and packed with locals and tourists alike, the attractive spot has temples, pavilions and holy kunds (natural springs and water tanks). Visitors to Galtaji will come across the complex of Ramgopalji temple, locally called the Monkey temple (Galwar Bagh). It gets this moniker because of a large group of resident monkeys. The green landscape and chattering monkeys add to the delight of the area. On top of the hill is a small temple dedicated to the sun god, called the Surya Mandir. Constructed by Diwan Kriparam, the temple can be seen from anywhere in the city.
+
+"/>
+    </LinearLayout>
+
+</ScrollView>

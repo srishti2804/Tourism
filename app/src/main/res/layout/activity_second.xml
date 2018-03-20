@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#103c8e"
+    android:padding="4dp"
+    android:weightSum="6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ABOUT"
+            android:textColor="#060606"
+            android:background="#fff"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+    <TextView
+        android:text="Rajasthan is one of the most popular tourist destinations in India, for both domestic and international tourists. Rajasthan attracts tourists for its historical forts, palaces, art and culture. Every third foreign tourist visiting India also travels to Rajasthan as it is part of the Golden Triangle for tourists visiting India."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:textSize="28sp" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="#1d8ab9"/>
+    </LinearLayout>
+</ScrollView>

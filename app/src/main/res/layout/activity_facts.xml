@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_facts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b673f9"
+       tools:context="com.example.user.tourism.facts">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txt"
+        android:text="FACTS"
+        android:textSize="40dp"
+        android:textColor="#030303"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#5be6e6"/>
+    <TextView
+        android:text="AREA
+342,239 sq.kms"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#4a86e1"
+        android:textSize="30sp" />
+    <TextView
+        android:text="LITERACY
+68.00%"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#4a86e1"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+    <TextView
+        android:text="POPULATION
+68,621,012"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView3"
+        android:background="#4a86e1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:text="LANGUAGE
+Rajasthani, Hindi "
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#4a86e1"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+    <TextView
+        android:text="CAPITAL\nJaipur"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView5"
+        android:background="#4a86e1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+    <TextView
+        android:text="DISTRICTS
+33"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView6"
+        android:background="#4a86e1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+</LinearLayout>
+</ScrollView>

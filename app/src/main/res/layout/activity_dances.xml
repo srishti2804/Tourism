@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dances"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.tourism.dances">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="DANCES"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#f56868"/>
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/a"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="BHAVI DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#b19595"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/b"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="CHAKRI DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/c"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="CHARI DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#c94e40"/>
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/d"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="DRUM DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#49c940"/>
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/e"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="FIRE DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/f"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="GAWARI DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/h"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="GHOMMAR DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/i"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="KACHHI DANCE"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/j"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="KALBELIA"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/h"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="KATHAK"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ak"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="KATHPUTLI"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4540c9"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_four"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#103c8e"
+    android:orientation="vertical"
+    tools:context="com.example.user.tourism.four">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAJASTHAN"
+        android:id="@+id/txt"
+        android:textColor="#0b0606"
+        android:textSize="40dp"
+        android:background="#0ed6c8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="130dp"
+            android:layout_height="fill_parent"
+            android:text="places to visit"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="70dp"
+            android:background="#1d8ab9"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:text="food"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="20dp"
+            android:background="#1d8ab9"
+            android:layout_weight="0.16" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="130dp"
+            android:layout_height="fill_parent"
+            android:text="Facts"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="70dp"
+            android:background="#1d8ab9"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="130dp"
+            android:layout_height="fill_parent"
+            android:text="Dances"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="20dp"
+            android:background="#1d8ab9"/>
+    </LinearLayout>
+</LinearLayout>

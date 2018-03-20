@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alberthall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48e8fa"
+    tools:context="com.example.user.tourism.alberthall">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textColor="#050101"
+        android:text="ALBERT HALL MUSEUM (CENTRAL MUSEUM)
+
+The building gets its name from The Victoria and Albert Museum in London, the inspiration for its design. The exquisitely built Albert Hall is housed in the centre of Ram Niwas Garden. Sir Swinton Jacob (who is also the mastermind behind many other palaces in Rajasthan) conceptualised and designed it using styles from the Indo-Sarcenic architecture and the Prince of Wales laid the foundation stone of the building in 1876. The museum displays a wide range of metal objects, wood crafts, carpets, stone and metal sculptures, arms and weapons, natural stones and ivory goods. It also houses a large collection of miniatures from Bundi, Kota, Kishangarh, Udaipur and Jaipur schools of art.
+
+"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_placesinjaipur"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.tourism.placesinjaipur">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLACES IN JAIPUR"
+            android:gravity="center"
+            android:textColor="#080303"
+            android:layout_marginTop="20dp"
+            android:background="#e19e9e"
+            android:textSize="35dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/img1"
+            android:background="@drawable/one"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:text="ALBERT HALL MUSEUM"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#080303"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/img2"
+            android:background="@drawable/two"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt2"
+            android:text="AMBER PALACE"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#080303"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/img3"
+            android:background="@drawable/three"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt3"
+            android:text="BIRLA TEMPLE"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#080303"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/img4"
+            android:background="@drawable/four"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt4"
+            android:text="GALTAJI"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#080303"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/img5"
+            android:background="@drawable/five"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt5"
+            android:text="GOVIND DEVJI TEMPLE"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#080303"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/img6"
+            android:background="@drawable/six"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt6"
+            android:text="HAWA MAHAL"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#080303"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/img7"
+            android:background="@drawable/seven"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt7"
+            android:text="JAL MAHAL"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#080303"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_birla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48e8fa"
+    tools:context="com.example.user.tourism.birla">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txt"
+        android:text="BIRLA TEMPLE
+
+The Lakshmi-Narayan Temple, or the Birla Temple, as it is more popularly known as, is located at the base of Moti Dungari. Built on an elevated platform, this comparatively modern temple is built entirely of white marble and dominates the skyline of south Jaipur. The temple was commissioned and built by renowned Indian industrialists, the Birlas, in 1988. The temple is dedicated to Lord Vishnu, also called Narayan, and his companion, Lakshmi, the Goddess of wealth and good fortune. The temple is a work of art and has a marvellous display of exquisite carvings and sculptures covering many mythological themes. The eye is drawn to the images of Laxmi and Narayan, carved as they are, from one piece of marble. The top of the temple has three domes, each representing the three religions followed in India. This is designed to pay homage to secular India. The temple looks spectacular at night when it is lit up. Other than the main temple, the complex has a museum that exhibits the earlier belongings of the Birla family.
+
+"
+        android:textColor="#060505"
+        android:textSize="20dp"/>
+</LinearLayout>
+</ScrollView>

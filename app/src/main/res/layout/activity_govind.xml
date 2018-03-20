@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_govind"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48e8fa"
+    tools:context="com.example.user.tourism.govind">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txt"
+        android:textSize="20dp"
+        android:textColor="#080606"
+        android:text="GOVIND DEVJI TEMPLE
+
+The Krishna temple is a rare spire-less temple and houses the idol of Govind Devji that Sawai Jai Singh brought from Vrindavan. The deity, worshipped by the erstwhile royal family, is also revered by the the locals in the area.
+
+"/>
+</LinearLayout>
+</ScrollView>

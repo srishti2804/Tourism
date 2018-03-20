@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_placesinalwar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b42e2e"
+    tools:context="com.example.user.tourism.placesinalwar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLACES IN ALWAR"
+            android:gravity="center"
+            android:textColor="#080303"
+            android:layout_marginTop="20dp"
+            android:background="#e19e9e"
+            android:textSize="35dp"/>
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/img"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/munsi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/txt1"
+            android:text="MUNSI"
+            android:textSize="28dp"
+            android:textColor="#130707"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/palace"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/txt2"
+            android:text="ALWAR PALACE"
+            android:textSize="28dp"
+            android:textColor="#130707"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/imgg"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/txt3"
+            android:text="BALA QILA"
+            android:textSize="28dp"
+            android:textColor="#130707"
+            android:gravity="center"/>
+
+    </LinearLayout>
+   </ScrollView>
